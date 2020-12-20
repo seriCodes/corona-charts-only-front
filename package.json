@@ -30,7 +30,10 @@
     "withinviewport": "^2.1.2"
   },
   "scripts": {
-     "start": "react-scripts start",
+
+    "start": "node server/server.js",
+    "dev": "react-scripts start",
+     "start-commented": "react-scripts start",
     "build": "react-scripts build",
     "commented-build": "npm install && npm run build",
     "test": "react-scripts test",
