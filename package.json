@@ -33,7 +33,7 @@
 
     "start": "node server/server.js",
     "dev": "react-scripts start",
-     "start-commented": "react-scripts start",
+     "commented-start": "react-scripts start",
     "build": "react-scripts build",
     "commented-build": "npm install && npm run build",
     "test": "react-scripts test",
