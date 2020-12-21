@@ -33,14 +33,10 @@
 
     "start": "node server/server.js",
     "dev": "react-scripts start",
-     "commented-start": "react-scripts start",
-    "build": "react-scripts build",
-    "commented-build": "npm install && npm run build",
-    "test": "react-scripts test",
+     "build": "react-scripts build",
+     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "runDB": "c:/Users/saars/mongodb/bin/mongod.exe --dbpath=c:/Users/saars/mongodb-data",
-    "herokuProcess": "git add . && git commit -m 'heroku-commit' && git push heroku master"
-  },
+   },
   "eslintConfig": {
     "extends": "react-app"
   },
